@@ -4,7 +4,7 @@ An English personal academic website built with the official [al-folio](https://
 
 Website: [yzl884.github.io/YichaoZhao](https://yzl884.github.io/YichaoZhao/)
 
-The initial version contains five pages. Personal materials will be added as they become available.
+The initial version contains five pages. The biography, photo, research details, publications, and teaching materials will be added when provided.
 
 | Page                    | Content file                                                 |
 | ----------------------- | ------------------------------------------------------------ |
