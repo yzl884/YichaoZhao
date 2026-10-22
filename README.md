@@ -27,4 +27,3 @@ The project site uses `url: https://yzl884.github.io` and `baseurl: /YichaoZhao`
 The al-folio runtime and visual design are provided by the official versioned gems pinned in `Gemfile`. No local layout or stylesheet overrides have been added. Unused template demo content is excluded from the published site and can be enabled later if needed.
 
 See [installation instructions](docs/INSTALL.md) and [customization instructions](docs/CUSTOMIZE.md) for local development and additional features. The upstream [MIT license](LICENSE) is retained.
-
