@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yichaozhao.com/sitemap.xml
+Sitemap: https://www.yichaozhao.com/sitemap.xml
