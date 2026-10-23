@@ -17,6 +17,8 @@ Site metadata and feature settings live in `_config.yml`. Public contact links l
 
 Research includes Talks & Conferences. Publications includes In the News, with media records in `_data/media_coverage.json`. Beyond the Science is for teaching, mentorship, and other interests. Previous activity, conference, press, and teaching URLs redirect to their current pages or sections.
 
+The Publications page uses standard section and paper anchors. The optional bibliography filter is disabled because it treats every URL fragment as a search query, which conflicts with these links. The theme's global search remains enabled.
+
 ## Publishing updates
 
 Changes pushed to `main` run the **Deploy site** workflow. It validates the site, builds Jekyll, and publishes the output to `gh-pages`. GitHub Pages serves the root of that branch.
