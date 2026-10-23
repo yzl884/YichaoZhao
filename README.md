@@ -15,7 +15,7 @@ The site contains four main pages. Published journal articles, conference contri
 
 Site metadata and feature settings live in `_config.yml`. Public contact links live in `_data/socials.yml`.
 
-Research includes Talks & Conferences. Publications includes In the News, with media records in `_data/media_coverage.json`. Beyond the Science is for teaching, mentorship, and other interests. Previous activity, conference, press, and teaching URLs redirect to their current pages or sections.
+Home uses the supplied biography, research overview, and headshot at `assets/img/Yichao_Zhao.jpg`. Research includes Talks & Conferences. Publications displays media coverage immediately beneath each relevant paper using the bibliography's native `note` field. Beyond the Science is for teaching, mentorship, and other interests. Previous activity, conference, press, and teaching URLs redirect to their current pages or sections.
 
 The Publications page uses standard section and paper anchors. The optional bibliography filter is disabled because it treats every URL fragment as a search query, which conflicts with these links. The theme's global search remains enabled.
 

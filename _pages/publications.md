@@ -15,7 +15,9 @@ nav_order: 2
   }
 </style>
 
-[Journal Articles](#journal-articles) · [In the News](#in-the-news)
+<span id="in-the-news"></span>
+
+Media coverage appears beneath the corresponding article.
 
 <h2 id="journal-articles">Journal Articles</h2>
 
@@ -34,17 +36,3 @@ nav_order: 2
 {% bibliography --file yichao-zhao --query @*[keywords=collaborative] %}
 
 </div>
-
-<h2 id="in-the-news">In the News</h2>
-
-Selected coverage of our published work.
-
-{% for coverage in site.data.media_coverage %}
-
-<p class="media-coverage-item">
-  <strong><a href="#{{ coverage.paper_key }}">{{ coverage.paper_title | escape }}</a></strong><br>
-  <em>{{ coverage.journal | escape }}</em>, {{ coverage.year }}.<br>
-  {% for outlet in coverage.outlets %}{% if outlet.url %}<a href="{{ outlet.url | escape }}">{{ outlet.name | escape }}</a>{% else %}{{ outlet.name | escape }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %}
-</p>
-
-{% endfor %}
