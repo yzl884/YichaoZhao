@@ -87,7 +87,7 @@ jobs:
       - name: Validate personal site
         run: |
           node test/style_contract.js
-          npx prettier --check _config.yml _data/socials.yml _pages/about.md _pages/research.md _pages/publications.md _pages/conferences.md _pages/teaching.md
+          npx prettier --check _config.yml _data/socials.yml _pages/about.md _pages/research.md _pages/publications.md _pages/conferences.md _pages/teaching.md _pages/press.md _pages/redirect-conferences.html _pages/redirect-teaching.html
           bundle exec al-folio upgrade audit --no-fail
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@dffe9a5223d84653c13374032382f6bb5de8e5ef # v0.17.0

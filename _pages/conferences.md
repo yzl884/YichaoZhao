@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Conferences
-permalink: /conferences/
-description: Conference presentations, talks, and academic events.
+title: Activities
+permalink: /activities/
+description: Conferences, talks, and academic activities.
 nav: true
 nav_order: 3
 ---
 
-Conference presentations and talks will be added here.
+Conference participation, presentations, and other academic activities will be added here.

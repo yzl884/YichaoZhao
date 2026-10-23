@@ -4,17 +4,20 @@ An English personal academic website built with the official [al-folio](https://
 
 Website: [yzl884.github.io/YichaoZhao](https://yzl884.github.io/YichaoZhao/)
 
-The initial version contains five pages. The biography, photo, research details, publications, and teaching materials will be added when provided.
+The site contains six pages. The biography, photo, research details, publications, activities, and media coverage will be added when provided.
 
-| Page                    | Content file                                                 |
-| ----------------------- | ------------------------------------------------------------ |
-| Home                    | `_pages/about.md`                                            |
-| Research                | `_pages/research.md`                                         |
-| Publications            | `_pages/publications.md` and `_bibliography/yichao-zhao.bib` |
-| Conferences             | `_pages/conferences.md`                                      |
-| Teaching and Mentorship | `_pages/teaching.md`                                         |
+| Page               | Content file                                                 |
+| ------------------ | ------------------------------------------------------------ |
+| Home               | `_pages/about.md`                                            |
+| Research           | `_pages/research.md`                                         |
+| Publications       | `_pages/publications.md` and `_bibliography/yichao-zhao.bib` |
+| Activities         | `_pages/conferences.md`                                      |
+| Press              | `_pages/press.md`                                            |
+| Beyond the Science | `_pages/teaching.md`                                         |
 
 Site metadata and feature settings live in `_config.yml`. Public contact links live in `_data/socials.yml`.
+
+Activities covers conference participation, presentations, and academic events. Press highlights news and media coverage of our work. Beyond the Science is for teaching, mentorship, and other interests. The previous conference and teaching URLs redirect to the renamed sections.
 
 ## Publishing updates
 
