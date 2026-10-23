@@ -2,7 +2,7 @@
 
 An English personal academic website built with the official [al-folio](https://github.com/alshedivat/al-folio) starter and hosted on GitHub Pages.
 
-Website: [yichaozhao.com](https://yichaozhao.com/)
+Website: [www.yichaozhao.com](https://www.yichaozhao.com/)
 
 The site contains four main pages. Published journal articles, conference contributions, and selected media coverage have been populated from the supplied CV. The full CV and personal contact information are not included in the published files.
 
@@ -23,7 +23,7 @@ The Publications page uses standard section and paper anchors. The optional bibl
 
 Changes pushed to `main` run the **Deploy site** workflow. It validates the site, builds Jekyll, and publishes the output to `gh-pages`. GitHub Pages serves the root of that branch.
 
-The site uses `url: https://yichaozhao.com` and an empty `baseurl` so pages and assets are served at the custom domain's root. The root `CNAME` file preserves this domain through deployments. DNS is managed in Squarespace; GitHub Pages hosts the site.
+The site uses `url: https://www.yichaozhao.com` and an empty `baseurl` so pages and assets are served at the custom domain's root. The root `CNAME` file preserves this domain through deployments. DNS is managed in Squarespace; GitHub Pages hosts the site.
 
 ## Template and local development
 
