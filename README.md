@@ -4,20 +4,18 @@ An English personal academic website built with the official [al-folio](https://
 
 Website: [yzl884.github.io/YichaoZhao](https://yzl884.github.io/YichaoZhao/)
 
-The site contains six pages. The biography, photo, research details, publications, activities, and media coverage will be added when provided.
+The site contains four main pages. Published journal articles, conference contributions, and selected media coverage have been populated from the supplied CV. The full CV and personal contact information are not included in the published files.
 
 | Page               | Content file                                                 |
 | ------------------ | ------------------------------------------------------------ |
 | Home               | `_pages/about.md`                                            |
-| Research           | `_pages/research.md`                                         |
+| Research           | `_pages/research.md` and `_data/conferences.json`            |
 | Publications       | `_pages/publications.md` and `_bibliography/yichao-zhao.bib` |
-| Activities         | `_pages/conferences.md`                                      |
-| Press              | `_pages/press.md`                                            |
 | Beyond the Science | `_pages/teaching.md`                                         |
 
 Site metadata and feature settings live in `_config.yml`. Public contact links live in `_data/socials.yml`.
 
-Activities covers conference participation, presentations, and academic events. Press highlights news and media coverage of our work. Beyond the Science is for teaching, mentorship, and other interests. The previous conference and teaching URLs redirect to the renamed sections.
+Research includes Talks & Conferences. Publications includes In the News, with media records in `_data/media_coverage.json`. Beyond the Science is for teaching, mentorship, and other interests. Previous activity, conference, press, and teaching URLs redirect to their current pages or sections.
 
 ## Publishing updates
 
