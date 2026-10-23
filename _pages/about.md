@@ -23,6 +23,28 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  .post .profile {
+    float: right;
+    width: 25%;
+    max-width: 240px;
+    margin: 0 0 1.5rem 1.75rem;
+  }
+
+  .post .profile figure {
+    margin: 0;
+  }
+
+  @media (max-width: 575px) {
+    .post .profile {
+      float: none;
+      width: 100%;
+      max-width: 220px;
+      margin: 0 auto 1.5rem;
+    }
+  }
+</style>
+
 ## Biography
 
 Dr. Yichao Zhao is currently a postdoctoral research fellow co-advised by Professors Daniel Anderson and Robert Langer at MIT. He earned his Ph.D. in Materials Science and Engineering under the supervision of Professor Sam Emaminejad at UCLA in 2021. His research integrates materials design, chemical synthesis, and synthetic biology to develop new bioelectronic technologies for multiscale biomarker sensing and precise control of cellular functions.
