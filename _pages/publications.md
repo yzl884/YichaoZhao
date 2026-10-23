@@ -7,6 +7,14 @@ nav: true
 nav_order: 2
 ---
 
+<style>
+  #journal-articles,
+  #in-the-news,
+  .publications [id] {
+    scroll-margin-top: 8rem;
+  }
+</style>
+
 [Journal Articles](#journal-articles) · [In the News](#in-the-news)
 
 <h2 id="journal-articles">Journal Articles</h2>

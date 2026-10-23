@@ -17,7 +17,7 @@ My research connects materials science, electrochemical biosensing, and bioelect
 
 [Publications]({{ '/publications/' | relative_url }}) · [Talks & Conferences](#talks-conferences)
 
-<h2 id="talks-conferences">Talks &amp; Conferences</h2>
+<h2 id="talks-conferences" style="scroll-margin-top: 8rem;">Talks &amp; Conferences</h2>
 
 Conference presentations and coauthored contributions. Presentation types and distinctions are noted where specified. \* Equal contribution.
 
