@@ -22,13 +22,14 @@ My research connects materials science, electrochemical biosensing, and bioelect
 
 Talks, conference presentations, and coauthored contributions. Presentation types and distinctions are noted where specified. \* Equal contribution.
 
-{% assign conference_year = 0 %}
+{% assign conference_date = '' %}
 {% for talk in site.data.conferences %}
-{% if talk.year != conference_year %}
+{% assign activity_date = talk.year | append: '/' | append: talk.month %}
+{% if activity_date != conference_date %}
 
-### {{ talk.year }}
+### {{ activity_date }}
 
-{% assign conference_year = talk.year %}
+{% assign conference_date = activity_date %}
 {% endif %}
 
 <p class="conference-entry">

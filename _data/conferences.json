@@ -2,6 +2,8 @@
   {
     "cv_number": 1,
     "year": 2026,
+    "month": "06",
+    "date_source": "https://www.grc.org/bioanalytical-sensors-grs-conference/2026/",
     "title": "Tissue-Like Biosensors with Benchmark Sensing Interfaces for In Vivo Molecular Monitoring",
     "event": "Gordon Research Seminar on Bioanalytical Sensors",
     "location": "Newport, RI",
@@ -12,6 +14,8 @@
   {
     "cv_number": 2,
     "year": 2026,
+    "month": "06",
+    "date_source": "https://www.grc.org/bioanalytical-sensors-conference/2026/",
     "title": "Tissue-Like Biosensors with Benchmark Sensing Interfaces for In Vivo Molecular Monitoring",
     "event": "Gordon Research Conference on Bioanalytical Sensors",
     "location": "Newport, RI",
@@ -22,6 +26,8 @@
   {
     "cv_number": 3,
     "year": 2025,
+    "month": "12",
+    "date_source": "https://www.mrs.org/docs/default-source/meetings-events/fall-meetings/2025/2025-mrs-fall-meeting-program.pdf?sfvrsn=f3ebdccd_3",
     "title": "Transforming Benchmark Rigid Electrochemical Interfaces into Tissue-Like Biosensors for In Vivo Molecular Monitoring via Anisotropic Conductive Adhesives",
     "event": "Materials Research Society Fall Meeting & Exhibit",
     "location": "",
@@ -32,6 +38,8 @@
   {
     "cv_number": 4,
     "year": 2025,
+    "month": "12",
+    "date_source": "https://www.mrs.org/docs/default-source/meetings-events/fall-meetings/2025/f25-mnfc-flyer.pdf?sfvrsn=2e0bb377_2",
     "title": "Meet the New Faculty Candidate Poster Session",
     "event": "Materials Research Society Fall Meeting & Exhibit",
     "location": "",
@@ -42,6 +50,8 @@
   {
     "cv_number": 7,
     "year": 2020,
+    "month": "10",
+    "date_source": "https://www.microtasconferences.org/microtas2020/",
     "title": "A Monolithic Wearable System Design Methodology for Physiological Actuation and Electrochemical Sensing",
     "event": "International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS)",
     "location": "",
@@ -52,6 +62,8 @@
   {
     "cv_number": 8,
     "year": 2020,
+    "month": "10",
+    "date_source": "https://www.microtasconferences.org/microtas2020/",
     "title": "A Sensor Surface Engineering Methodology for Noninvasive Wearable Electroactive Drug Monitoring",
     "event": "International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS)",
     "location": "",
@@ -62,6 +74,8 @@
   {
     "cv_number": 9,
     "year": 2020,
+    "month": "10",
+    "date_source": "https://www.microtasconferences.org/microtas2020/",
     "title": "A Microfluidic Valving Array for Wearable Biofluid Management",
     "event": "International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS)",
     "location": "",
@@ -72,6 +86,8 @@
   {
     "cv_number": 5,
     "year": 2019,
+    "month": "10",
+    "date_source": "https://microtasconferences.org/microtas2019/",
     "title": "Mediator-Free Wearable Enzymatic Sensing to Mitigate Ionic and Electroactive Interference for Reliable Operation in Complex Biofluid",
     "event": "International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS)",
     "location": "",
@@ -82,6 +98,8 @@
   {
     "cv_number": 10,
     "year": 2019,
+    "month": "10",
+    "date_source": "https://microtasconferences.org/microtas2019/",
     "title": "A Fully Integrated Wearable AC Electrothermal Actuation Platform for Biofluid Manipulation",
     "event": "International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS)",
     "location": "",
@@ -92,6 +110,8 @@
   {
     "cv_number": 11,
     "year": 2019,
+    "month": "10",
+    "date_source": "https://microtasconferences.org/microtas2019/",
     "title": "Rapid and Low-Cost Fabrication and Integration of Complex 3D Microfluidic Architectures for Lab-on-Body Applications",
     "event": "International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS)",
     "location": "",
@@ -102,6 +122,8 @@
   {
     "cv_number": 12,
     "year": 2019,
+    "month": "10",
+    "date_source": "https://microtasconferences.org/microtas2019/",
     "title": "An Electroenzymatic Sensor with Enhanced Sensitivity and Selectivity for Wearable Nutrient Monitoring Applications",
     "event": "International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS)",
     "location": "",
@@ -112,6 +134,8 @@
   {
     "cv_number": 6,
     "year": 2018,
+    "month": "06",
+    "date_source": "https://www.transducer-research-foundation.org/archive/hh2018/",
     "title": "Electrochemically-Functionalized and Vertically Conductive Adhesive Tapes for Wearable Sweat Biomarker Monitoring",
     "event": "Solid-State Sensors, Actuators and Microsystems Workshop",
     "location": "",
@@ -122,6 +146,8 @@
   {
     "cv_number": 13,
     "year": 2018,
+    "month": "06",
+    "date_source": "https://www.transducer-research-foundation.org/archive/hh2018/",
     "title": "Highly Sensitive Impediometric Aptasensor for Wearable Detection of Hormones",
     "event": "Solid-State Sensors, Actuators and Microsystems Workshop",
     "location": "",
@@ -132,6 +158,8 @@
   {
     "cv_number": 14,
     "year": 2018,
+    "month": "06",
+    "date_source": "https://www.transducer-research-foundation.org/archive/hh2018/",
     "title": "A Fully-Integrated Wearable Microfluidic Actuation and Sensing Platform for Biomarker Analysis",
     "event": "Solid-State Sensors, Actuators and Microsystems Workshop",
     "location": "",

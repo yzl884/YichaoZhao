@@ -126,14 +126,15 @@ latest_posts:
 
   .home-activity-list li {
     display: grid;
-    grid-template-columns: 3.5rem minmax(0, 1fr);
-    column-gap: 1.5rem;
+    grid-template-columns: 5rem minmax(0, 1fr);
+    column-gap: 1.25rem;
     margin-bottom: 1.75rem;
   }
 
-  .home-activity-year {
+  .home-activity-date {
     color: var(--global-text-color-light, #6b6b6b);
     font-variant-numeric: tabular-nums;
+    white-space: nowrap;
   }
 
   .home-activity-list p {
@@ -206,7 +207,7 @@ latest_posts:
   <ul class="home-activity-list">
     {% for talk in site.data.conferences limit: 4 %}
     <li>
-      <span class="home-activity-year">{{ talk.year }}</span>
+      <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
       <div>
         <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
         <p>{{ talk.title | escape }}</p>
