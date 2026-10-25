@@ -166,7 +166,7 @@ latest_posts:
 
 <section class="home-hero" aria-labelledby="home-name">
   <div class="home-hero-copy">
-    <p class="home-kicker">Reading and reprogramming life at the molecular level</p>
+    <p class="home-kicker">Understanding and controlling biology at the molecular level</p>
     <h1 id="home-name">Yichao Zhao</h1>
     <div class="home-biography">
     <p>Dr. Yichao Zhao is currently a postdoctoral research fellow co-advised by Professors Daniel Anderson and Robert Langer at MIT. He earned his Ph.D. in Materials Science and Engineering under the supervision of Professor Sam Emaminejad at UCLA in 2021.</p>
