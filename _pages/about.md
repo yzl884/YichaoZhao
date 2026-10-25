@@ -102,7 +102,7 @@ latest_posts:
     border-radius: 0;
   }
 
-  .home-research {
+  .home-activities {
     max-width: 54rem;
     padding-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -111,15 +111,38 @@ latest_posts:
     line-height: 1.75;
   }
 
-  .home-research h2 {
+  .home-activities h2 {
     margin-top: 0;
     margin-bottom: 1.5rem;
     font-size: 1.75rem;
     font-weight: 400;
   }
 
-  .home-research p {
-    margin-bottom: 1.35rem;
+  .home-activity-list {
+    padding: 0;
+    margin: 0 0 2rem;
+    list-style: none;
+  }
+
+  .home-activity-list li {
+    display: grid;
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    column-gap: 1.5rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .home-activity-year {
+    color: var(--global-text-color-light, #6b6b6b);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .home-activity-list p {
+    margin: 0.35rem 0 0;
+    font-size: 0.95rem;
+  }
+
+  .home-activity-note {
+    color: var(--global-text-color-light, #6b6b6b);
   }
 
   @media (max-width: 899px) {
@@ -178,12 +201,19 @@ latest_posts:
   </div>
 </section>
 
-<section class="home-research" aria-labelledby="research-overview">
-  <h2 id="research-overview">Research Overview</h2>
-
-  <p>Bioelectronics such as smartwatches, neural stimulators, and pacemakers have transformed our ability to monitor and modulate physical signals. The next frontier is extending these technologies to continuously monitor biochemical markers and deliver therapeutics, enabling a more decentralized and personalized model of healthcare.</p>
-
-  <p>I develop tissue-like bioelectronics for continuous <em>in vivo</em> biochemical monitoring. To overcome signal distortion caused by tissue deformation, I developed strain-insensitive electrochemical materials that decouple mechanical interference from true biochemical readouts. These tools enable high-fidelity pharmacokinetic studies in interstitial and cerebrospinal fluids.</p>
-
-  <p>I also develop cell-based implants as “living medicines.” While promising, their translation is hindered by a lack of precise control over therapeutic secretion <em>in vivo</em>. My work introduces a new class of solid-state electrolytes that bioelectronically modulate endogenous ion pathways in mammalian cells, enabling the rapid, on-demand release of therapeutic proteins.</p>
+<section class="home-activities" aria-labelledby="activities">
+  <h2 id="activities">Activities</h2>
+  <ul class="home-activity-list">
+    {% for talk in site.data.conferences limit: 4 %}
+    <li>
+      <span class="home-activity-year">{{ talk.year }}</span>
+      <div>
+        <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
+        <p>{{ talk.title | escape }}</p>
+        {% if talk.note != empty %}<p class="home-activity-note">{{ talk.note | escape }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/research/#activities' | relative_url }}">View all activities &rarr;</a></p>
 </section>

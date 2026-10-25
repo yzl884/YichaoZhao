@@ -15,11 +15,12 @@ My research connects materials science, electrochemical biosensing, and bioelect
 - **Soft bioelectronics:** Flexible and strain-insensitive materials and interfaces that preserve sensing performance during deformation.
 - **Biomaterials for cell therapies:** Antifouling, immunoisolation, and hydrogel materials for implantable cell encapsulation devices.
 
-[Publications]({{ '/publications/' | relative_url }}) · [Talks & Conferences](#talks-conferences)
+[Publications]({{ '/publications/' | relative_url }}) · [Activities](#activities)
 
-<h2 id="talks-conferences" style="scroll-margin-top: 8rem;">Talks &amp; Conferences</h2>
+<span id="talks-conferences" style="scroll-margin-top: 8rem;"></span>
+<h2 id="activities" style="scroll-margin-top: 8rem;">Activities</h2>
 
-Conference presentations and coauthored contributions. Presentation types and distinctions are noted where specified. \* Equal contribution.
+Talks, conference presentations, and coauthored contributions. Presentation types and distinctions are noted where specified. \* Equal contribution.
 
 {% assign conference_year = 0 %}
 {% for talk in site.data.conferences %}
