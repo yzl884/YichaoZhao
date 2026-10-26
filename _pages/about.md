@@ -147,6 +147,31 @@ latest_posts:
     color: var(--global-text-color-light, #6b6b6b);
   }
 
+  .home-activities-more > summary {
+    width: fit-content;
+    margin-bottom: 1.75rem;
+    color: var(--global-theme-color);
+    cursor: pointer;
+  }
+
+  .home-activities-more > summary:hover {
+    text-decoration: underline;
+  }
+
+  .home-activities-more > summary:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+  }
+
+  .home-activities-more .activities-show-fewer,
+  .home-activities-more[open] .activities-show-all {
+    display: none;
+  }
+
+  .home-activities-more[open] .activities-show-fewer {
+    display: inline;
+  }
+
   @media (max-width: 899px) {
     .home-hero {
       grid-template-columns: minmax(0, 1fr);
@@ -207,7 +232,7 @@ latest_posts:
   <h2 id="activities">Activities</h2>
   <p>Talks, conference presentations, and coauthored contributions. * Equal contribution.</p>
   <ul class="home-activity-list">
-    {% for talk in site.data.conferences %}
+    {% for talk in site.data.conferences limit: 4 %}
     <li>
       <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
       <div>
@@ -220,4 +245,23 @@ latest_posts:
     </li>
     {% endfor %}
   </ul>
+  {% if site.data.conferences.size > 4 %}
+  <details class="home-activities-more">
+    <summary><span class="activities-show-all">View all activities</span><span class="activities-show-fewer">Show fewer activities</span></summary>
+    <ul class="home-activity-list">
+      {% for talk in site.data.conferences offset: 4 %}
+      <li>
+        <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
+        <div>
+          <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
+          <p>{{ talk.title | escape }}</p>
+          <p>{{ talk.authors | escape | replace: 'Zhao, Y.', '<strong>Zhao, Y.</strong>' }}</p>
+          {% if talk.note != empty %}<p class="home-activity-note">{{ talk.note | escape }}</p>{% endif %}
+          {% if talk.doi != empty %}<p><a href="https://doi.org/{{ talk.doi }}">DOI</a></p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
 </section>
