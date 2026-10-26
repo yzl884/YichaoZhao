@@ -7,7 +7,7 @@ subtitle: Postdoctoral Research Fellow · Massachusetts Institute of Technology
 profile: false
 
 selected_papers: false
-social: true # includes social icons at the bottom of the page
+social: false # hide social icons at the bottom of the homepage
 
 announcements:
   enabled: false # enable after adding personal news items
