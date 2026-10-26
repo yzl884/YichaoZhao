@@ -39,14 +39,12 @@ nav_order: 2
 <ul class="manuscripts-in-progress">
   {% for manuscript in site.data.manuscripts_in_progress %}
     <li>
-      {% for author in manuscript.authors %}{% if forloop.last %}<span class="manuscript-final-author">{% endif %}{% if author.self %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% if author.equal %}<sup>†</sup>{% endif %}{% if forloop.last %} <strong>{{ manuscript.year }}</strong></span>{% else %}; {% endif %}{% endfor %}
+      {% for author in manuscript.authors %}{% if forloop.last %}<span class="manuscript-final-author">{% endif %}{% if author.self %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% if author.equal %}<sup>†</sup>{% endif %}{% if author.corresponding %}<sup>*</sup>{% endif %}{% if forloop.last %} <strong>{{ manuscript.year }}</strong></span>{% else %}; {% endif %}{% endfor %}
     </li>
   {% endfor %}
 </ul>
 
 <h2 id="journal-articles">Journal Articles</h2>
-
-{% include bib_search.liquid %}
 
 <div class="publications">
 

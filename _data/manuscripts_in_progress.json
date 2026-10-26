@@ -76,7 +76,8 @@
       {
         "name": "Anderson, D. G.",
         "self": false,
-        "equal": false
+        "equal": false,
+        "corresponding": true
       }
     ]
   },
@@ -217,7 +218,8 @@
       {
         "name": "Emaminejad, S.",
         "self": false,
-        "equal": false
+        "equal": false,
+        "corresponding": true
       }
     ]
   },
@@ -323,7 +325,8 @@
       {
         "name": "Anderson, D. G.",
         "self": false,
-        "equal": false
+        "equal": false,
+        "corresponding": true
       }
     ]
   },
@@ -384,7 +387,8 @@
       {
         "name": "Anderson, D. G.",
         "self": false,
-        "equal": false
+        "equal": false,
+        "corresponding": true
       }
     ]
   }
