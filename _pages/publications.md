@@ -24,6 +24,10 @@ nav_order: 2
     margin-bottom: 1.25rem;
     line-height: 1.8;
   }
+
+  .manuscript-final-author {
+    white-space: nowrap;
+  }
 </style>
 
 <span id="in-the-news"></span>
@@ -35,7 +39,7 @@ nav_order: 2
 <ul class="manuscripts-in-progress">
   {% for manuscript in site.data.manuscripts_in_progress %}
     <li>
-      {% for author in manuscript.authors %}{% if author.self %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% if author.equal %}<sup>†</sup>{% endif %}{% unless forloop.last %}; {% endunless %}{% endfor %} <strong>{{ manuscript.year }}</strong>
+      {% for author in manuscript.authors %}{% if forloop.last %}<span class="manuscript-final-author">{% endif %}{% if author.self %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% if author.equal %}<sup>†</sup>{% endif %}{% if forloop.last %} <strong>{{ manuscript.year }}</strong></span>{% else %}; {% endif %}{% endfor %}
     </li>
   {% endfor %}
 </ul>
