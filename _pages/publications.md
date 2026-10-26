@@ -19,6 +19,8 @@ nav_order: 2
 
 Media coverage appears beneath the corresponding article.
 
+Select a figure to enlarge it, or use the PDF button to read or download the full paper.
+
 <h2 id="journal-articles">Journal Articles</h2>
 
 \* Equal contribution.

@@ -249,7 +249,7 @@ exclude:
   - _teachings/
   - assets/json/resume.json
   - assets/rendercv/
-  - assets/pdf/
+  - assets/pdf/example_pdf.pdf
   - purgecss.config.js
   - README.md
   - readme_preview/
