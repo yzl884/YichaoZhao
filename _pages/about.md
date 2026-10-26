@@ -219,8 +219,9 @@ latest_posts:
     <p class="home-kicker">Understanding and controlling biology at the molecular level</p>
     <h1 id="home-name">Yichao Zhao</h1>
     <div class="home-biography">
-    <p>Dr. Yichao Zhao is currently a postdoctoral research fellow co-advised by Professors Daniel Anderson and Robert Langer at MIT. He earned his Ph.D. in Materials Science and Engineering under the supervision of Professor Sam Emaminejad at UCLA in 2021.</p>
-    <p>His research integrates materials design, chemical synthesis, and synthetic biology to develop new bioelectronic technologies for multiscale biomarker sensing and precise control of cellular functions.</p>
+    <p>I am Yichao Zhao, a postdoctoral researcher at MIT working with Professors Daniel Anderson and Robert Langer. My research focuses on developing biochemical electronics for continuous molecular sensing and precise control of cellular functions.</p>
+    <p>My current work focuses on electrochemical materials that translate electrical inputs into chemical cues to regulate specific cellular signaling pathways. This platform enables on-demand release of therapeutic proteins, providing a foundation for responsive cell-based therapies.</p>
+    <p>I received my Ph.D. in Materials Science and Engineering from UCLA, advised by Professor Sam Emaminejad. There, I developed tissue-like biosensors for continuous molecular monitoring, enabling pharmacokinetic studies in animal models and metabolic monitoring in human participants.</p>
     </div>
   </div>
   <div class="home-portrait">
