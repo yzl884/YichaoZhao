@@ -116,6 +116,7 @@ latest_posts:
     margin-bottom: 1.5rem;
     font-size: 1.75rem;
     font-weight: 400;
+    scroll-margin-top: 8rem;
   }
 
   .home-activity-list {
@@ -204,17 +205,19 @@ latest_posts:
 
 <section class="home-activities" aria-labelledby="activities">
   <h2 id="activities">Activities</h2>
+  <p>Talks, conference presentations, and coauthored contributions. * Equal contribution.</p>
   <ul class="home-activity-list">
-    {% for talk in site.data.conferences limit: 4 %}
+    {% for talk in site.data.conferences %}
     <li>
       <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
       <div>
         <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
         <p>{{ talk.title | escape }}</p>
+        <p>{{ talk.authors | escape | replace: 'Zhao, Y.', '<strong>Zhao, Y.</strong>' }}</p>
         {% if talk.note != empty %}<p class="home-activity-note">{{ talk.note | escape }}</p>{% endif %}
+        {% if talk.doi != empty %}<p><a href="https://doi.org/{{ talk.doi }}">DOI</a></p>{% endif %}
       </div>
     </li>
     {% endfor %}
   </ul>
-  <p><a href="{{ '/research/#activities' | relative_url }}">View all activities &rarr;</a></p>
 </section>
