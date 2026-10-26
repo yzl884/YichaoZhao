@@ -42,7 +42,7 @@ latest_posts:
     grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
     column-gap: clamp(3rem, 6vw, 6rem);
     align-items: start;
-    padding-top: clamp(3rem, 5vw, 5rem);
+    padding-top: 1rem;
     margin-bottom: 4.5rem;
   }
 
@@ -190,10 +190,6 @@ latest_posts:
     body:has(.home-hero) > .container,
     body:has(.home-hero) #navbar > .container {
       width: calc(100% - 40px);
-    }
-
-    .home-hero {
-      padding-top: 3rem;
     }
 
     .home-kicker {
