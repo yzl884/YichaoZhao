@@ -1,0 +1,391 @@
+[
+  {
+    "id": "manuscript-1",
+    "year": 2026,
+    "authors": [
+      {
+        "name": "Zhao, Y.",
+        "self": true,
+        "equal": true
+      },
+      {
+        "name": "Jeang, W. J.",
+        "self": false,
+        "equal": true
+      },
+      {
+        "name": "Xu, J. H.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Perez, I.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Razavi, S.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "De Carluccio, G.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Collins, E.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "McMullen, P.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Kumar, A.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Manan, R. S.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Li, N.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Detmer, S.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Collins, J. J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Langer, R.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Anderson, D. G.",
+        "self": false,
+        "equal": false
+      }
+    ]
+  },
+  {
+    "id": "manuscript-2",
+    "year": 2026,
+    "authors": [
+      {
+        "name": "Tan, J.",
+        "self": false,
+        "equal": true
+      },
+      {
+        "name": "Bahramian, M.",
+        "self": false,
+        "equal": true
+      },
+      {
+        "name": "Zhang, K.",
+        "self": false,
+        "equal": true
+      },
+      {
+        "name": "Zhao, Y.",
+        "self": true,
+        "equal": true
+      },
+      {
+        "name": "Huang, R.",
+        "self": false,
+        "equal": true
+      },
+      {
+        "name": "Fang, J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Al Msari, M.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Zhu, J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Cheng, X.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Li, Z.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Youssef, K.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Yao, K.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Murdica, C.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Perlman, D.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Li, A.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Tse, C.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Sabet, K.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Mohseni, A.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Hojaiji, H.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Nathanson, D.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Marks, H.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Chen, Y.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Jin, L.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Xu, S.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Pei, Q.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Lu, D. C.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Emaminejad, S.",
+        "self": false,
+        "equal": false
+      }
+    ]
+  },
+  {
+    "id": "manuscript-3",
+    "year": 2026,
+    "authors": [
+      {
+        "name": "Jeang, W. J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Mustafina, K.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Wauford, N.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Jiang, A. L.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Pan, J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Gumustop, D.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Zhao, Y.",
+        "self": true,
+        "equal": false
+      },
+      {
+        "name": "Shaer, B.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Liu, K. J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Wong, B. M.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Chen, Y.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "McMullen, P.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Wan, Y.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Li, N.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Galloway, K. E.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Krishnan, S. R.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Langer, R.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Bose, S.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Weiss, R.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Anderson, D. G.",
+        "self": false,
+        "equal": false
+      }
+    ]
+  },
+  {
+    "id": "manuscript-4",
+    "year": 2026,
+    "authors": [
+      {
+        "name": "Li, N.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Pan, J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Bochenek, M. A.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Jeang, W. J.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Zhao, Y.",
+        "self": true,
+        "equal": false
+      },
+      {
+        "name": "Prokop, E.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Potdar, S.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Chen, Y.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Krishnan, S. R.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Langer, R.",
+        "self": false,
+        "equal": false
+      },
+      {
+        "name": "Anderson, D. G.",
+        "self": false,
+        "equal": false
+      }
+    ]
+  }
+]
