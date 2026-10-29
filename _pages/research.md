@@ -33,12 +33,50 @@ nav_order: 1
     clear: both;
   }
 
+  .research-response {
+    clear: both;
+    width: 100%;
+    max-width: 40rem;
+    margin: 1.5rem auto 2rem;
+  }
+
+  .research-response-panels {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .research-response-label {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .research-response img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: default;
+  }
+
+  .research-response figcaption {
+    margin-top: 0.75rem;
+    color: var(--global-text-color-light, #6b6b6b);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
   @media (max-width: 600px) {
     .research-figure {
       float: none;
       width: fit-content;
       max-width: 100%;
       margin: 0 auto 1.25rem;
+    }
+
+    .research-response-panels {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.25rem;
     }
   }
 </style>
@@ -64,6 +102,20 @@ My research combines biomolecular systems with electrochemical materials design 
 ## 2. Biochemical modulators for precise control of cellular functions
 
 Electrical stimulation has transformed the treatment of conditions such as abnormal heart rhythms and certain neurological disorders. I want to expand what electronics can control in the body, enabling more selective regulation of cellular functions for disease treatment.
+
+<figure class="research-response" aria-label="Cellular response to electrical input">
+  <div class="research-response-panels">
+    <div>
+      <p class="research-response-label">Before electrical input</p>
+      <img src="{{ '/assets/img/research/cellular-control-before.png' | relative_url }}" alt="Baseline fluorescence in a magnified group of cells before electrical input." width="220" height="220" loading="lazy" decoding="async">
+    </div>
+    <div>
+      <p class="research-response-label">After electrical input</p>
+      <img src="{{ '/assets/img/research/cellular-control-after.png' | relative_url }}" alt="Increased fluorescence in the same group of cells following a +2.4 V electrical input." width="220" height="220" loading="lazy" decoding="async">
+    </div>
+  </div>
+  <figcaption>The same cells before and after a +2.4 V electrical input.</figcaption>
+</figure>
 
 To achieve this, I develop electrochemical materials that translate electrical inputs into chemical signals. These biochemical modulators are designed to provide two capabilities:
 
