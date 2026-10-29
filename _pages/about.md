@@ -212,6 +212,26 @@ latest_posts:
     scroll-margin-top: 8rem;
   }
 
+  .home-contact {
+    max-width: 54rem;
+    padding-top: 1.5rem;
+    margin: 0 0 2.5rem;
+    border-top: 1px solid var(--global-divider-color, #e5e5e5);
+  }
+
+  .home-contact h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+    scroll-margin-top: 8rem;
+  }
+
+  .home-contact p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
   .home-activity-list {
     padding: 0;
     margin: 0 0 2rem;
@@ -337,6 +357,11 @@ latest_posts:
       </details>
       </div>
     </figure>
+</section>
+
+<section class="home-contact" aria-labelledby="contact">
+  <h2 id="contact">Contact</h2>
+  <p><a href="mailto:{{ site.data.socials.email | escape }}">{{ site.data.socials.email | escape }}</a></p>
 </section>
 
 <script defer src="{{ '/assets/js/home-comparison.js' | relative_url }}"></script>
