@@ -11,12 +11,13 @@ images:
 
 <style>
   .mentorship-values .value-block {
-    margin-top: 2.5rem;
-    padding-bottom: 2.25rem;
+    margin-top: 1.75rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--global-divider-color, #e5e5e5);
   }
 
   .mentorship-values .value-block:last-child {
+    padding-bottom: 0;
     border-bottom: 0;
   }
 
@@ -29,7 +30,7 @@ images:
 
   .mentorship-values h3 {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-size: 1.5rem;
     line-height: 1.35;
   }
@@ -56,7 +57,7 @@ images:
   }
 
   .mentorship-values .value-photo figcaption {
-    margin-top: 0.65rem;
+    margin: 0.5rem 0 0;
     color: color-mix(in srgb, var(--global-text-color, #222) 75%, var(--global-bg-color, #fff));
     font-size: 0.85rem;
     line-height: 1.55;
@@ -64,15 +65,15 @@ images:
   }
 
   .family-section {
-    margin-top: 3.5rem;
-    padding-top: 2.5rem;
+    margin-top: 2.25rem;
+    padding-top: 1.75rem;
     border-top: 1px solid var(--global-divider-color, #e5e5e5);
     scroll-margin-top: 6rem;
   }
 
   .family-section > h2 {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
   }
 
   .family-section > p {
@@ -81,7 +82,7 @@ images:
 
   .family-gallery-wrap {
     max-width: 48rem;
-    margin: 2rem auto 0;
+    margin: 1.25rem auto 0;
   }
 
   .family-gallery {
@@ -129,6 +130,7 @@ images:
 
   .family-gallery figcaption {
     min-height: 5rem;
+    margin: 0;
     padding: 0.9rem 3rem 2.5rem;
     color: var(--global-text-color);
     font-size: 1rem;
