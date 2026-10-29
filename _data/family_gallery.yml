@@ -1,10 +1,21 @@
-# Add an image path and descriptive title to each entry when photos are ready.
-- title: Photo 1
-  image: ""
-  alt: ""
-- title: Photo 2
-  image: ""
-  alt: ""
-- title: Photo 3
-  image: ""
-  alt: ""
+- title: Ice cream with friends
+  image: assets/img/family-friendship/ice-cream-with-friends.jpg
+  alt: Four friends enjoying ice cream together outdoors.
+- title: On the road together
+  image: assets/img/family-friendship/on-the-road-together.jpg
+  alt: Three friends taking a photo together inside a car.
+- title: A day to remember
+  image: assets/img/family-friendship/a-day-to-remember.jpg
+  alt: A couple in wedding attire sharing a moment outside a wooden doorway.
+- title: An afternoon outdoors
+  image: assets/img/family-friendship/an-afternoon-outdoors.jpg
+  alt: A white cat on a harness enjoying time outside with its companion.
+- title: A moment at UCLA
+  image: assets/img/family-friendship/a-moment-at-ucla.jpg
+  alt: Two people standing together beside the UCLA engineering school sign.
+- title: A little help with game night
+  image: assets/img/family-friendship/game-night-companion.jpg
+  alt: A gray and white cat sitting on a lap beside a game controller.
+- title: Catching up over dinner
+  image: assets/img/family-friendship/catching-up-over-dinner.jpg
+  alt: Three friends enjoying dinner together at a restaurant.
