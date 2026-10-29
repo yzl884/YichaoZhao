@@ -311,7 +311,7 @@ latest_posts:
     <p class="home-kicker">Understanding and controlling biology at the molecular level</p>
     <h1 id="home-name">Yichao Zhao</h1>
     <div class="home-biography">
-    <p>I am Yichao Zhao, a postdoctoral researcher at MIT working with Professors Daniel Anderson and Robert Langer. My research focuses on developing biochemical electronics for continuous molecular sensing and precise control of cellular functions.</p>
+    <p>I am Yichao Zhao, a postdoctoral researcher working with Professors Daniel Anderson and Robert Langer at MIT. My research focuses on developing biochemical electronics for continuous molecular sensing and precise control of cellular functions.</p>
     </div>
   </div>
   <div class="home-portrait">
