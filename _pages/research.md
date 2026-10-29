@@ -7,20 +7,80 @@ nav: true
 nav_order: 1
 ---
 
+<style>
+  body:has(.research-figure) h2 {
+    clear: both;
+  }
+
+  .research-figure {
+    float: right;
+    max-width: 20rem;
+    margin: 0 0 1rem 1.75rem;
+  }
+
+  .research-figure figure {
+    margin: 0;
+  }
+
+  .research-figure img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    cursor: default;
+  }
+
+  .research-clear {
+    clear: both;
+  }
+
+  @media (max-width: 600px) {
+    .research-figure {
+      float: none;
+      width: fit-content;
+      max-width: 100%;
+      margin: 0 auto 1.25rem;
+    }
+  }
+</style>
+
 ## Research Overview
 
 From smartwatches to pacemakers, electronics have transformed how we monitor and care for the body. However, current devices remain limited in their ability to interface with biology at the molecular level: for example, to read information carried by DNA, RNA, and proteins or to control cellular functions by regulating gene expression and protein activity. Bridging this gap requires electronics capable of communicating with biology in its native molecular language. To this end, my research incorporates programmable biomolecular systems into materials design to create a new class of biochemical electronics capable of health monitoring at the molecular level and precise control of cellular functions for disease treatment. My goal is to bring these capabilities into everyday care, supporting earlier disease detection, continuous health management, and personalized treatment.
 
-## How can we follow the body’s chemistry as it changes?
+## 1. Biochemical sensors for understanding the body’s changing chemistry
 
-The body’s chemistry changes all the time, but we usually measure it only occasionally. I want to make these changes easier to follow in everyday life. By creating bioelectronics that continuously read molecular signals, I aim to help us understand how our bodies respond to daily activities, medicines, and disease. This could also help us recognize important changes earlier.
+<div class="research-figure">
+  {% include figure.liquid path="assets/img/research/biosensor.png" alt="A biochemical sensing interface." sizes="116px" zoomable=false %}
+</div>
 
-## How can we guide cells to help treat disease?
+The body’s chemistry changes all the time, but we usually measure it only occasionally. My goal is to develop biosensors that continuously track a wider range of molecules in the body, from small-molecule metabolites to peptides and proteins. Achieving this requires addressing three central challenges:
 
-Many treatments work by changing what cells do. I want to make those changes more precise and easier to control. My research explores how electronic devices can communicate with cells through chemical signals, allowing us to guide particular cell behaviors. One possibility is an implant containing living cells that can be instructed to release medicine at a chosen time, making treatment easier to adjust.
+1. **Selectivity:** Can sensors distinguish their target molecules from the many other substances present in the body?
+2. **Sensitivity:** Can they detect molecules at the levels found in the body and resolve small changes over time?
+3. **Stability:** Can they maintain reliable measurements over long periods as conditions in the body change?
 
-## How can bioelectronics become part of everyday care?
+My research combines biomolecular systems with electrochemical materials design to address these challenges. These sensors would help us understand how the body’s chemistry changes during daily life, disease, and treatment. The long-term goal is to detect disease earlier and guide treatment based on how each person’s body responds.
 
-I want to create bioelectronics that people can comfortably live with over the long term. That means devices that keep working as the body moves and changes, and that fit the needs of patients and clinicians. My goal is to make molecular monitoring and controlled treatment practical parts of everyday care, with less disruption to the lives of the people using them.
+## 2. Biochemical modulators for precise control of cellular functions
+
+Electrical stimulation has transformed the treatment of conditions such as abnormal heart rhythms and certain neurological disorders. I want to expand what electronics can control in the body, enabling more selective regulation of cellular functions for disease treatment.
+
+To achieve this, I develop electrochemical materials that translate electrical inputs into chemical signals. These biochemical modulators are designed to provide two capabilities:
+
+1. **Pathway selectivity:** Target specific cellular signaling pathways, allowing more precise control over which cellular functions are regulated.
+2. **Broader functional control:** Extend electronic control to cellular functions that are difficult to regulate through direct electrical stimulation.
+
+I aim to apply these modulators both to cells and tissues already in the body and to engineered cells in therapeutic implants. For these living therapies, external control could allow clinicians to adjust when and how much medicine the cells release. The long-term goal is to make treatment more effective and safer by allowing therapeutic activity to be adjusted as a patient’s needs change.
+
+## 3. Fully integrated biochemical electronics for translational applications
+
+<div class="research-figure">
+  {% include figure.liquid path="assets/img/research/integrated-wearable-device.jpg" alt="An integrated wearable biochemical sensing device on a wrist." sizes="(min-width: 601px) 320px, calc(100vw - 48px)" zoomable=false %}
+</div>
+
+I want to turn advances in molecular sensing and cellular control into complete medical devices that can work reliably in everyday care. This direction brings together materials, biochemical interfaces, and device engineering to create wearable, implantable, and point-of-care systems. One long-term goal is to link molecular measurements with controlled therapeutic responses, allowing devices to act on the information they collect. I am equally interested in what makes these systems practical, including sustained operation, ease of use, and meaningful information for patients and clinicians. By developing and evaluating integrated devices around specific clinical needs, I aim to make biochemical electronics useful for early disease detection, continuous health management, and personalized treatment.
+
+<div class="research-clear"></div>
 
 [Publications]({{ '/publications/' | relative_url }})
