@@ -349,7 +349,7 @@ latest_posts:
     <li>
       <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
       <div>
-        <strong>{% if talk.url and talk.url != empty %}<a href="{{ talk.url | escape }}">{{ talk.event | escape }}</a>{% else %}{{ talk.event | escape }}{% endif %}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
+        <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
         {% if talk.title != empty %}<p>{{ talk.title | escape }}</p>{% endif %}
         <p>{{ talk.authors | escape | replace: 'Zhao, Y.', '<strong>Zhao, Y.</strong>' }}</p>
         {% if talk.note != empty %}<p class="home-activity-note">{{ talk.note | escape }}</p>{% endif %}
@@ -366,7 +366,7 @@ latest_posts:
       <li>
         <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
         <div>
-          <strong>{% if talk.url and talk.url != empty %}<a href="{{ talk.url | escape }}">{{ talk.event | escape }}</a>{% else %}{{ talk.event | escape }}{% endif %}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
+          <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
           {% if talk.title != empty %}<p>{{ talk.title | escape }}</p>{% endif %}
           <p>{{ talk.authors | escape | replace: 'Zhao, Y.', '<strong>Zhao, Y.</strong>' }}</p>
           {% if talk.note != empty %}<p class="home-activity-note">{{ talk.note | escape }}</p>{% endif %}
