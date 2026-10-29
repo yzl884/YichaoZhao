@@ -65,7 +65,7 @@ My research combines biomolecular systems with electrochemical materials design 
 ## 2. Biochemical modulators for precise control of cellular functions
 
 <div class="research-figure">
-  <img src="{{ '/assets/img/research/cellular-control-comparison.svg' | relative_url }}" alt="Two matched views of the same cells, separated by a vertical divider: before electrical input on the left and after +2.4 V input on the right, with identical muted teal coloring." width="1200" height="900" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/research/cellular-control-comparison-vivid.svg' | relative_url }}" alt="Two matched views of the same cells: no stimulation on the left, and stimulation through biochemical modulator electronics on the right. Both panels use the same vivid emerald color mapping and are separated by a light divider." width="1200" height="900" loading="lazy" decoding="async">
 </div>
 
 Electrical stimulation has transformed the treatment of conditions such as abnormal heart rhythms and certain neurological disorders. I want to expand what electronics can control in the body, enabling more selective regulation of cellular functions for disease treatment.
