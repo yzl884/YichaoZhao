@@ -343,7 +343,7 @@ latest_posts:
 
 <section class="home-activities" aria-labelledby="activities">
   <h2 id="activities">Activities</h2>
-  <p>Talks, panels, conferences, and coauthored contributions. * Equal contribution.</p>
+  <p>Talks, panel discussions, and conference participation.</p>
   <ul class="home-activity-list">
     {% for talk in site.data.conferences limit: 4 %}
     <li>
@@ -375,6 +375,7 @@ latest_posts:
       </li>
       {% endfor %}
     </ul>
+    <p class="home-activity-note">* Equal contribution.</p>
   </details>
   {% endif %}
 </section>

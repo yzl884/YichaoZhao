@@ -14,9 +14,19 @@
     "gamma_exponent": 0.7
   },
   "resampling": "Lanczos; display enlargement only, no new microscopy detail generated",
-  "color": "grayscale",
+  "color": "Identical muted teal sRGB color matrix for both panels",
   "scale_bar": "Not added; no spatial calibration provided.",
   "note": "Times refer to encoded video playback, not independently verified experimental elapsed time.",
-  "output_dimensions": [1228, 734],
-  "sha256_png": "d03e31cf4a64a12e61792a3755aa320069c39ad4dee7b0f8dacf94a1e7f6b5b0"
+  "output_dimensions": [1200, 900],
+  "compact_composition": {
+    "divider_width_px": 12,
+    "labels": ["Before", "After +2.4 V"],
+    "source_pixels_preserved": true,
+    "identical_color_matrix": "0.72 0 0 0 0.02; 0 0.90 0 0 0.03; 0 0 0.86 0 0.035; 0 0 0 1 0",
+    "embedded_source_images": ["cellular-control-before.png", "cellular-control-after.png"],
+    "asset": "cellular-control-comparison.svg",
+    "source_image_crop_viewbox": [37.4, 0, 145.2, 220],
+    "aspect_ratio": "4:3"
+  },
+  "sha256_svg": "3f3e1c575e68faefef054838f181f1ca59ab51a83416d87c4c208a870b10eb88"
 }
