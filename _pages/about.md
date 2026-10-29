@@ -343,14 +343,14 @@ latest_posts:
 
 <section class="home-activities" aria-labelledby="activities">
   <h2 id="activities">Activities</h2>
-  <p>Talks, conference presentations, and coauthored contributions. * Equal contribution.</p>
+  <p>Talks, panels, conference presentations, and coauthored contributions. * Equal contribution.</p>
   <ul class="home-activity-list">
     {% for talk in site.data.conferences limit: 4 %}
     <li>
       <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
       <div>
-        <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
-        <p>{{ talk.title | escape }}</p>
+        <strong>{% if talk.url and talk.url != empty %}<a href="{{ talk.url | escape }}">{{ talk.event | escape }}</a>{% else %}{{ talk.event | escape }}{% endif %}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
+        {% if talk.title != empty %}<p>{{ talk.title | escape }}</p>{% endif %}
         <p>{{ talk.authors | escape | replace: 'Zhao, Y.', '<strong>Zhao, Y.</strong>' }}</p>
         {% if talk.note != empty %}<p class="home-activity-note">{{ talk.note | escape }}</p>{% endif %}
         {% if talk.doi != empty %}<p><a href="https://doi.org/{{ talk.doi }}">DOI</a></p>{% endif %}
@@ -366,8 +366,8 @@ latest_posts:
       <li>
         <time class="home-activity-date" datetime="{{ talk.year }}-{{ talk.month }}">{{ talk.year }}/{{ talk.month }}</time>
         <div>
-          <strong>{{ talk.event | escape }}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
-          <p>{{ talk.title | escape }}</p>
+          <strong>{% if talk.url and talk.url != empty %}<a href="{{ talk.url | escape }}">{{ talk.event | escape }}</a>{% else %}{{ talk.event | escape }}{% endif %}</strong>{% if talk.location != empty %}, {{ talk.location | escape }}{% endif %}
+          {% if talk.title != empty %}<p>{{ talk.title | escape }}</p>{% endif %}
           <p>{{ talk.authors | escape | replace: 'Zhao, Y.', '<strong>Zhao, Y.</strong>' }}</p>
           {% if talk.note != empty %}<p class="home-activity-note">{{ talk.note | escape }}</p>{% endif %}
           {% if talk.doi != empty %}<p><a href="https://doi.org/{{ talk.doi }}">DOI</a></p>{% endif %}

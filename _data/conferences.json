@@ -1,5 +1,19 @@
 [
   {
+    "id": "bio-sens-2026-panel",
+    "year": 2026,
+    "month": "11",
+    "date": "2026-11-18",
+    "date_source": "https://ceps.unh.edu/chemical-engineering-bioengineering/seminar-series",
+    "url": "https://ceps.unh.edu/chemical-engineering-bioengineering/seminar-series",
+    "title": "Bioprocess Analytical Technology: Needs and Challenges",
+    "event": "4th Annual BIO-SENS Industry & Academic Biotechnology Symposium",
+    "location": "University of New Hampshire, Durham, NH",
+    "note": "Invited panelist",
+    "authors": "Zhao, Y.",
+    "doi": ""
+  },
+  {
     "cv_number": 1,
     "year": 2026,
     "month": "06",
@@ -44,6 +58,20 @@
     "event": "Materials Research Society Fall Meeting & Exhibit",
     "location": "",
     "note": "Poster session",
+    "authors": "Zhao, Y.",
+    "doi": ""
+  },
+  {
+    "id": "ucla-biomedical-electronics-2023-panel",
+    "year": 2023,
+    "month": "04",
+    "date": "2023-04-28",
+    "date_source": "https://www.ee.ucla.edu/events/biomedical-electronics-symposium/",
+    "url": "https://www.ee.ucla.edu/events/biomedical-electronics-symposium/",
+    "title": "",
+    "event": "Biomedical Electronics Symposium",
+    "location": "UCLA, Los Angeles, CA",
+    "note": "Invited panelist",
     "authors": "Zhao, Y.",
     "doi": ""
   },
