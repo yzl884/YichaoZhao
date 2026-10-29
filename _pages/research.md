@@ -86,5 +86,3 @@ I aim to apply these modulators both to cells and tissues already in the body an
 I want to turn advances in molecular sensing and cellular control into complete medical devices that can work reliably in everyday care. This direction brings together materials, biochemical interfaces, and device engineering to create wearable, implantable, and point-of-care systems. One long-term goal is to link molecular measurements with controlled therapeutic responses, allowing devices to act on the information they collect. I am equally interested in what makes these systems practical, including sustained operation, ease of use, and meaningful information for patients and clinicians. By developing and evaluating integrated devices around specific clinical needs, I aim to make biochemical electronics useful for early disease detection, continuous health management, and personalized treatment.
 
 <div class="research-clear"></div>
-
-[Publications]({{ '/publications/' | relative_url }})
