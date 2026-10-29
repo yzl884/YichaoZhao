@@ -40,10 +40,16 @@ latest_posts:
   .home-hero {
     display: grid;
     grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    grid-template-areas: "intro portrait" "background comparison";
     column-gap: clamp(3rem, 6vw, 6rem);
+    row-gap: 1.5rem;
     align-items: start;
     padding-top: 1rem;
-    margin-bottom: 4.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .home-hero-copy {
+    grid-area: intro;
   }
 
   .home-kicker {
@@ -80,11 +86,17 @@ latest_posts:
     margin-bottom: 0;
   }
 
+  .home-biography.home-background {
+    grid-area: background;
+    margin-top: 0;
+  }
+
   .home-portrait {
+    grid-area: portrait;
     width: 100%;
     max-width: 26rem;
     justify-self: end;
-    margin-top: clamp(5rem, 7.5vw, 7rem);
+    align-self: end;
   }
 
   .home-portrait figure {
@@ -105,8 +117,12 @@ latest_posts:
     border-radius: 0;
   }
 
-  .home-portrait .home-comparison {
-    margin: 1.5rem 0 0;
+  .home-comparison {
+    grid-area: comparison;
+    width: 100%;
+    max-width: 26rem;
+    justify-self: end;
+    margin: 0;
   }
 
   .home-comparison video {
@@ -134,9 +150,9 @@ latest_posts:
   }
 
   .home-comparison-toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
     gap: 1rem;
     margin-top: 0.65rem;
     color: color-mix(in srgb, var(--global-text-color, #222) 75%, var(--global-bg-color, #fff));
@@ -144,7 +160,8 @@ latest_posts:
   }
 
   .home-comparison-toolbar button {
-    flex-shrink: 0;
+    grid-area: 1 / 2;
+    justify-self: end;
     padding: 0.25rem 0.5rem;
     border: 1px solid var(--global-divider-color, #e5e5e5);
     border-radius: 0.2rem;
@@ -155,7 +172,7 @@ latest_posts:
   }
 
   .home-comparison-credits {
-    margin-top: 0.5rem;
+    grid-area: 1 / 1 / 2 / -1;
     color: color-mix(in srgb, var(--global-text-color, #222) 75%, var(--global-bg-color, #fff));
     font-size: 0.75rem;
     line-height: 1.6;
@@ -163,6 +180,8 @@ latest_posts:
 
   .home-comparison-credits summary {
     width: fit-content;
+    max-width: calc(100% - 6rem);
+    padding-top: 0.25rem;
     cursor: pointer;
   }
 
@@ -249,11 +268,13 @@ latest_posts:
   @media (max-width: 899px) {
     .home-hero {
       grid-template-columns: minmax(0, 1fr);
-      row-gap: 2.5rem;
-      margin-bottom: 3rem;
+      grid-template-areas: "intro" "portrait" "background" "comparison";
+      row-gap: 1.75rem;
+      margin-bottom: 2.5rem;
     }
 
-    .home-portrait {
+    .home-portrait,
+    .home-comparison {
       width: 100%;
       max-width: 34rem;
       margin-top: 0;
@@ -291,30 +312,31 @@ latest_posts:
     <h1 id="home-name">Yichao Zhao</h1>
     <div class="home-biography">
     <p>I am Yichao Zhao, a postdoctoral researcher at MIT working with Professors Daniel Anderson and Robert Langer. My research focuses on developing biochemical electronics for continuous molecular sensing and precise control of cellular functions.</p>
-    <p>My current work focuses on electrochemical materials that translate electrical inputs into chemical cues to regulate specific cellular signaling pathways. This platform enables on-demand release of therapeutic proteins, providing a foundation for responsive cell-based therapies. I received my Ph.D. in Materials Science and Engineering from UCLA, advised by Professor Sam Emaminejad. There, I developed tissue-like biosensors for continuous molecular monitoring, enabling pharmacokinetic studies in animal models and metabolic monitoring in human participants.</p>
     </div>
   </div>
   <div class="home-portrait">
     {% include figure.liquid path="assets/img/Yichao_Zhao.jpg" alt="Yichao Zhao" sizes="(min-width: 1400px) 510px, (min-width: 900px) 38vw, (min-width: 576px) 544px, calc(100vw - 40px)" loading="eager" cache_bust=true %}
+  </div>
+  <div class="home-biography home-background">
+    <p>My current work focuses on electrochemical materials that translate electrical inputs into chemical cues to regulate specific cellular signaling pathways. This platform enables on-demand release of therapeutic proteins, providing a foundation for responsive cell-based therapies. I received my Ph.D. in Materials Science and Engineering from UCLA, advised by Professor Sam Emaminejad. There, I developed tissue-like biosensors for continuous molecular monitoring, enabling pharmacokinetic studies in animal models and metabolic monitoring in human participants.</p>
+  </div>
     <figure class="home-comparison">
       <video id="home-comparison-video" muted loop playsinline controls controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture preload="metadata" poster="{{ '/assets/img/biology-electronics-poster.jpg' | relative_url }}" aria-label="Visual comparison of calcium signaling in living cells and transistor photon emission. Appearance and playback speed have been adjusted independently.">
         <source src="{{ '/assets/video/biology-electronics-comparison.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support video playback.
       </video>
-      <figcaption><strong>Biology meets electronics</strong>Dynamic signals reveal the activity of both cells and circuits. Biochemical electronics bridges the two.</figcaption>
+      <figcaption><strong>Biology meets electronics</strong>Connecting the signals of cells and circuits.</figcaption>
       <div class="home-comparison-toolbar">
-        <span>Edited visual comparison</span>
         <button id="home-comparison-toggle" type="button" aria-controls="home-comparison-video" aria-pressed="false" hidden>Play video</button>
-      </div>
       <details class="home-comparison-credits">
-        <summary>Footage &amp; credits</summary>
+        <summary>Edited comparison &amp; credits</summary>
         <p>Biology: intracellular calcium activity in CaSR-HEK cells, recorded by Yichao Zhao.</p>
         <p>Electronics: adapted excerpt from Dmitry Nedospasov, <a href="https://media.ccc.de/v/30C3_-_5459_-__-_saal_1_-_201312282145_-_security_of_the_ic_backside_-_nedos">Security of the IC Backside</a>, 30C3 (2013), approximately 31:00–31:06. Source licensed under <a href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>.</p>
         <p>The clips were cropped, recolored, contrast-adjusted and independently retimed for visual comparison. Displayed size and timing are not a quantitative comparison.</p>
         <p>Related background: <a href="https://doi.org/10.1007/s13389-013-0053-7">Simple photonic emission analysis of AES</a> (2013). The excerpt is credited to the talk; it has not been verified as supplementary video for this paper.</p>
       </details>
+      </div>
     </figure>
-  </div>
 </section>
 
 <script defer src="{{ '/assets/js/home-comparison.js' | relative_url }}"></script>
