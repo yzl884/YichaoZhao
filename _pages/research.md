@@ -51,7 +51,9 @@ From smartwatches to pacemakers, electronics have transformed how we monitor and
 ## 1. Biochemical sensors for understanding the body’s changing chemistry
 
 <div class="research-figure">
-  {% include figure.liquid path="assets/img/research/biosensor.png" alt="A biochemical sensing interface." sizes="116px" zoomable=false %}
+  <figure>
+    <img src="{{ '/assets/img/research/biosensor.png' | relative_url }}" alt="A biochemical sensing interface." width="116" height="79" loading="lazy">
+  </figure>
 </div>
 
 The body’s chemistry changes all the time, but we usually measure it only occasionally. My goal is to develop biosensors that continuously track a wider range of molecules in the body, from small-molecule metabolites to peptides and proteins. Achieving this requires addressing three central challenges:
