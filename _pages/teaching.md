@@ -2,7 +2,7 @@
 layout: page
 permalink: /beyond-the-science/
 title: Beyond the Science
-description: Teaching, mentorship, and interests beyond research.
+description: Teaching, mentorship, and life beyond the lab.
 nav: true
 nav_order: 3
 images:
