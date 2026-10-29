@@ -81,6 +81,9 @@ latest_posts:
   }
 
   .home-portrait {
+    width: 100%;
+    max-width: 26rem;
+    justify-self: end;
     margin-top: clamp(5rem, 7.5vw, 7rem);
   }
 
@@ -100,6 +103,77 @@ latest_posts:
     object-fit: cover;
     object-position: center;
     border-radius: 0;
+  }
+
+  .home-portrait .home-comparison {
+    margin: 1.5rem 0 0;
+  }
+
+  .home-comparison video {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 864 / 490;
+    background: #03090c;
+  }
+
+  .home-comparison figcaption {
+    margin: 0.75rem 0 0;
+    color: color-mix(in srgb, var(--global-text-color, #222) 75%, var(--global-bg-color, #fff));
+    font-size: 0.9rem;
+    line-height: 1.55;
+    text-align: left;
+  }
+
+  .home-comparison figcaption strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .home-comparison-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.65rem;
+    color: color-mix(in srgb, var(--global-text-color, #222) 75%, var(--global-bg-color, #fff));
+    font-size: 0.75rem;
+  }
+
+  .home-comparison-toolbar button {
+    flex-shrink: 0;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--global-divider-color, #e5e5e5);
+    border-radius: 0.2rem;
+    background: transparent;
+    color: var(--global-text-color);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .home-comparison-credits {
+    margin-top: 0.5rem;
+    color: color-mix(in srgb, var(--global-text-color, #222) 75%, var(--global-bg-color, #fff));
+    font-size: 0.75rem;
+    line-height: 1.6;
+  }
+
+  .home-comparison-credits summary {
+    width: fit-content;
+    cursor: pointer;
+  }
+
+  .home-comparison-credits p {
+    margin: 0.6rem 0 0;
+  }
+
+  .home-comparison button:focus-visible,
+  .home-comparison summary:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
   }
 
   .home-activities {
@@ -183,6 +257,7 @@ latest_posts:
       width: 100%;
       max-width: 34rem;
       margin-top: 0;
+      justify-self: start;
     }
   }
 
@@ -221,8 +296,28 @@ latest_posts:
   </div>
   <div class="home-portrait">
     {% include figure.liquid path="assets/img/Yichao_Zhao.jpg" alt="Yichao Zhao" sizes="(min-width: 1400px) 510px, (min-width: 900px) 38vw, (min-width: 576px) 544px, calc(100vw - 40px)" loading="eager" cache_bust=true %}
+    <figure class="home-comparison">
+      <video id="home-comparison-video" muted loop playsinline controls controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture preload="metadata" poster="{{ '/assets/img/biology-electronics-poster.jpg' | relative_url }}" aria-label="Visual comparison of calcium signaling in living cells and transistor photon emission. Appearance and playback speed have been adjusted independently.">
+        <source src="{{ '/assets/video/biology-electronics-comparison.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support video playback.
+      </video>
+      <figcaption><strong>Biology meets electronics</strong>Dynamic signals reveal the activity of both cells and circuits. Biochemical electronics bridges the two.</figcaption>
+      <div class="home-comparison-toolbar">
+        <span>Edited visual comparison</span>
+        <button id="home-comparison-toggle" type="button" aria-controls="home-comparison-video" aria-pressed="false" hidden>Play video</button>
+      </div>
+      <details class="home-comparison-credits">
+        <summary>Footage &amp; credits</summary>
+        <p>Biology: intracellular calcium activity in CaSR-HEK cells, recorded by Yichao Zhao.</p>
+        <p>Electronics: adapted excerpt from Dmitry Nedospasov, <a href="https://media.ccc.de/v/30C3_-_5459_-__-_saal_1_-_201312282145_-_security_of_the_ic_backside_-_nedos">Security of the IC Backside</a>, 30C3 (2013), approximately 31:00–31:06. Source licensed under <a href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>.</p>
+        <p>The clips were cropped, recolored, contrast-adjusted and independently retimed for visual comparison. Displayed size and timing are not a quantitative comparison.</p>
+        <p>Related background: <a href="https://doi.org/10.1007/s13389-013-0053-7">Simple photonic emission analysis of AES</a> (2013). The excerpt is credited to the talk; it has not been verified as supplementary video for this paper.</p>
+      </details>
+    </figure>
   </div>
 </section>
+
+<script defer src="{{ '/assets/js/home-comparison.js' | relative_url }}"></script>
 
 <section class="home-activities" aria-labelledby="activities">
   <h2 id="activities">Activities</h2>

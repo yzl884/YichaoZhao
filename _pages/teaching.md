@@ -90,7 +90,7 @@ images:
     width: 100%;
     --swiper-navigation-color: var(--global-text-color);
     --swiper-navigation-size: 1.35rem;
-    --swiper-navigation-top-offset: calc(50% - 2.5rem);
+    --swiper-navigation-top-offset: calc(50% - 1rem);
     --swiper-pagination-color: var(--global-text-color);
     --swiper-pagination-bullet-inactive-color: var(--global-text-color);
     --swiper-pagination-bullet-inactive-opacity: 0.3;
@@ -98,6 +98,7 @@ images:
 
   .family-gallery swiper-slide {
     height: auto;
+    padding-bottom: 2rem;
   }
 
   .family-gallery:not(:defined) swiper-slide:not(:first-child) {
@@ -129,13 +130,7 @@ images:
   }
 
   .family-gallery figcaption {
-    min-height: 5rem;
-    margin: 0;
-    padding: 0.9rem 3rem 2.5rem;
-    color: var(--global-text-color);
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: center;
+    display: none;
   }
 
   .family-gallery::part(button-prev),
