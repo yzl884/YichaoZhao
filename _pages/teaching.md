@@ -230,7 +230,7 @@ My goal as a teacher and mentor is to help people develop the understanding, con
 
 <section class="family-section" aria-labelledby="family-and-friendship">
   <h2 id="family-and-friendship">Family and Friendship</h2>
-  <p>Many of the friendships I value most began through working and learning together. People I first knew as mentors, students, collaborators, or colleagues have become friends whose place in my life extends well beyond research. We’ve shared the excitement of making progress and the frustration of setbacks, and we continue to learn from, encourage, and support one another. At the center of my life is my family. I’m grateful for my wife’s support and for the company of our two cats, who bring warmth and joy to everyday life. They make home a place where I can recharge, be myself, and find the encouragement to keep going.</p>
+  <p>Many of the friendships I value most began through working and learning together. People I first knew as mentors, students, collaborators, or colleagues have become friends whose place in my life extends well beyond research. We’ve shared the excitement of making progress and the frustration of setbacks, and we continue to learn from, encourage, and support one another. At the center of my life is my family. I’m grateful for my wife’s support and for the company of our two cats, who bring warmth and joy to everyday life. My family makes home a place where I can recharge, be myself, and find the encouragement to keep going.</p>
 
   <div class="family-gallery-wrap">
     <swiper-container
