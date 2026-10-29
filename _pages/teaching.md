@@ -100,10 +100,13 @@ My goal as a teacher and mentor is to help people develop the understanding, con
     </div>
   </section>
 
-  <section class="value-block" aria-labelledby="creating-a-culture-of-openness-and-responsibility">
+  <section class="value-block value-row" aria-labelledby="creating-a-culture-of-openness-and-responsibility">
     <div class="value-copy">
       <h3 id="creating-a-culture-of-openness-and-responsibility">Creating a culture of openness and responsibility</h3>
       <p>I want to build a research environment where people feel comfortable asking questions, discussing setbacks, and challenging interpretations. This openness comes with responsibility for data integrity, reproducibility, and fair credit. Transparent expectations about project roles, authorship, and professional opportunities help people work together with trust. I value both ownership of individual projects and the willingness to share methods, ideas, and expertise.</p>
+    </div>
+    <div class="value-photo">
+      {% include figure.liquid path="assets/img/teaching-mentorship/ucla-summer-research-lunch.jpg" alt="UCLA lab members sharing lunch with undergraduate and high school summer researchers" caption="A summer research lunch at UCLA, bringing together lab members and undergraduate and high school researchers." sizes="(min-width: 768px) 288px, (min-width: 576px) 512px, calc(100vw - 48px)" zoomable=false %}
     </div>
   </section>
 
