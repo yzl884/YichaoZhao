@@ -12,6 +12,7 @@ nav_order: 1
   }
 
   .research-figure {
+    position: relative;
     float: right;
     max-width: 20rem;
     margin: 0 0 1rem 1.75rem;
@@ -32,6 +33,19 @@ nav_order: 1
     max-width: 100%;
     height: auto;
     cursor: default;
+  }
+
+  .research-image-credit {
+    position: absolute;
+    right: 0.35rem;
+    bottom: 0.35rem;
+    padding: 0.15rem 0.35rem;
+    border-radius: 0.15rem;
+    background: rgb(0 0 0 / 55%);
+    color: #fff;
+    font-size: 0.65rem;
+    line-height: 1.4;
+    pointer-events: none;
   }
 
   .research-clear {
@@ -57,6 +71,7 @@ From smartwatches to pacemakers, electronics have transformed how we monitor and
 
 <div class="research-figure research-figure-sensors">
   {% include figure.liquid path="assets/img/research/biosensor-interface.jpg" alt="A biochemical sensing interface." sizes="(min-width: 328px) 280px, calc(100vw - 48px)" zoomable=false %}
+  <span class="research-image-credit">Credit: J.T.</span>
 </div>
 
 The body’s chemistry changes all the time, but we usually measure it only occasionally. My goal is to develop biosensors that continuously track a wider range of molecules in the body, from small-molecule metabolites to peptides and proteins. Achieving this requires addressing three central challenges:
@@ -71,6 +86,7 @@ My research combines biomolecular systems with electrochemical materials design 
 
 <div class="research-figure">
   <img src="{{ '/assets/img/research/cellular-control-comparison-vivid.svg' | relative_url }}" alt="Two matched views of the same cells: no stimulation on the left, and stimulation through biochemical modulator electronics on the right. Both panels use the same vivid emerald color mapping and are separated by a light divider." width="1200" height="900" loading="lazy" decoding="async">
+  <span class="research-image-credit">Credit: Y.Z.</span>
 </div>
 
 Electrical stimulation has transformed the treatment of conditions such as abnormal heart rhythms and certain neurological disorders. I want to expand what electronics can control in the body, enabling more selective regulation of cellular functions for disease treatment.
@@ -86,6 +102,7 @@ I aim to apply these modulators both to cells and tissues already in the body an
 
 <div class="research-figure">
   {% include figure.liquid path="assets/img/research/integrated-wearable-device.jpg" alt="An integrated wearable biochemical sensing device on a wrist." sizes="(min-width: 601px) 320px, calc(100vw - 48px)" zoomable=false %}
+  <span class="research-image-credit">Credit: P.N.</span>
 </div>
 
 I want to turn advances in molecular sensing and cellular control into complete medical devices that can work reliably in everyday care. This direction brings together materials, biochemical interfaces, and device engineering to create wearable, implantable, and point-of-care systems. One long-term goal is to link molecular measurements with controlled therapeutic responses, allowing devices to act on the information they collect. I am equally interested in what makes these systems practical, including sustained operation, ease of use, and meaningful information for patients and clinicians. By developing and evaluating integrated devices around specific clinical needs, I aim to make biochemical electronics useful for early disease detection, continuous health management, and personalized treatment.
