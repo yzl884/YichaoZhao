@@ -2,6 +2,8 @@
 
 `biology-electronics-comparison.mp4` is a 12-second, muted presentation loop. It is an edited visual comparison, not a synchronized experiment or a comparison of physical dimensions or rates.
 
+Playback defaults to muted, inline autoplay and looping. The homepage retries playback when media becomes ready, the page becomes visible, or the video enters the screen. A manual pause remains in effect until the visitor chooses Play. Browser autoplay restrictions may still require a gesture; the playback controls remain available in that case.
+
 - Biology: Yichao Zhao's intracellular calcium oscillation recording in CaSR-HEK cells (`3_1.5mM_4X.avi`).
 - Electronics: supplied crop `03_dense_CMOS_emission_crop.mp4`, from Dmitry Nedospasov's [Security of the IC Backside](https://media.ccc.de/v/30C3_-_5459_-__-_saal_1_-_201312282145_-_security_of_the_ic_backside_-_nedos), 30C3, 2013, approximately 31:00–31:06. The supplied file's copyright metadata identifies [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/) as the source license.
 

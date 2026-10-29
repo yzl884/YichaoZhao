@@ -341,7 +341,7 @@ latest_posts:
     <p>My current work focuses on electrochemical materials that translate electrical inputs into chemical cues to regulate specific cellular signaling pathways. This platform enables on-demand release of therapeutic proteins, providing a foundation for responsive cell-based therapies. I received my Ph.D. in Materials Science and Engineering from UCLA, advised by Professor Sam Emaminejad. There, I developed tissue-like biosensors for continuous molecular monitoring, enabling pharmacokinetic studies in animal models and metabolic monitoring in human participants.</p>
   </div>
     <figure class="home-comparison">
-      <video id="home-comparison-video" muted loop playsinline controls controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture preload="metadata" poster="{{ '/assets/img/biology-electronics-poster.jpg' | relative_url }}" aria-label="Visual comparison of calcium signaling in living cells and transistor photon emission. Appearance and playback speed have been adjusted independently.">
+      <video id="home-comparison-video" autoplay muted loop playsinline webkit-playsinline controls controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture preload="auto" poster="{{ '/assets/img/biology-electronics-poster.jpg' | relative_url }}" aria-label="Visual comparison of calcium signaling in living cells and transistor photon emission. Appearance and playback speed have been adjusted independently.">
         <source src="{{ '/assets/video/biology-electronics-comparison.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support video playback.
       </video>
@@ -364,7 +364,7 @@ latest_posts:
   <p><a href="mailto:{{ site.data.socials.email | escape }}">{{ site.data.socials.email | escape }}</a></p>
 </section>
 
-<script defer src="{{ '/assets/js/home-comparison.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/home-comparison.js' | relative_url }}?v=20261029-autoplay"></script>
 
 <section class="home-activities" aria-labelledby="activities">
   <h2 id="activities">Activities</h2>
