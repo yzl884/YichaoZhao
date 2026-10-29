@@ -1,5 +1,19 @@
 [
   {
+    "id": "us-japan-drug-delivery-2026",
+    "year": 2026,
+    "month": "12",
+    "date": "2026-12-06",
+    "end_date": "2026-12-10",
+    "date_source": "https://langerlab.mit.edu/symposium/",
+    "title": "",
+    "event": "17th US-Japan Symposium on Drug Delivery Systems",
+    "location": "Maui, HI",
+    "note": "Attending",
+    "authors": "Zhao, Y.",
+    "doi": ""
+  },
+  {
     "id": "bio-sens-2026-panel",
     "year": 2026,
     "month": "11",

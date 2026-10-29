@@ -2,7 +2,6 @@
 layout: page
 title: Research
 permalink: /research/
-description: Materials, bioelectronics, and electrochemical interfaces for health.
 nav: true
 nav_order: 1
 ---
