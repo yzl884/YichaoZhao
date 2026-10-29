@@ -1,0 +1,10 @@
+# Add an image path and descriptive title to each entry when photos are ready.
+- title: Photo 1
+  image: ""
+  alt: ""
+- title: Photo 2
+  image: ""
+  alt: ""
+- title: Photo 3
+  image: ""
+  alt: ""
